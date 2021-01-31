@@ -16,6 +16,45 @@ body {
     padding-left: 0.4em;
 }
 
+#navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(68, 92, 112);
+}
+
+#navigation-bar li {
+    float: left;
+    border-right: 1px black solid;
+    margin: 0;
+}
+
+#navigation-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#navigation-bar li a:hover {
+    background-color: rgb(175, 193, 207);
+}
+
+#navigation-bar .external-link {
+    float: right;
+    border-right: none;
+    border-left: 1px black solid;
+}
+
 .contact-info {
     background-color: rgb(87, 147, 202);
 }
@@ -86,8 +125,6 @@ ul {
 em {
     margin: 0;
 }
-
-
 
 a:link:active{
     color: red;
